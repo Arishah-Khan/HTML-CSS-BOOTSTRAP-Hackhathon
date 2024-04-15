@@ -1,0 +1,336 @@
+@font-face {
+    font-family: "Arvo";
+    src: url(fonts/Arvo-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Arvos";
+    src: url(fonts/Arvo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Mulish";
+    src: url(fonts/Mulish-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.margin {
+    display: flex;
+    justify-content: space-between;
+}
+
+.covid {
+    font-family: "Arvo";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43.22px;
+    text-align: left;
+}
+
+link {
+    font-family: "Arvos";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.23px;
+    text-align: left;
+    color: #808081;
+
+}
+
+.bg {
+    background: #F0ECF9;
+    border-bottom-right-radius: 300px;
+
+}
+
+.awarness {
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.08px;
+    text-align: left;
+    color: #6F42C199;
+
+}
+
+.safe {
+    font-family: "Mulish";
+    font-weight: 900;
+    line-height: 50.58px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #6F42C1;
+
+}
+
+.lorem {
+    font-family: "Mulish";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: left;
+    color: #808081;
+
+}
+
+.prevent {
+    width: 30%;
+    font-family: "Mulish";
+    font-size: 15px;
+    border-radius: 26px;
+    font-weight: 400;
+    line-height: 18.83px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #6F42C1;
+    padding: 15px 5px 15px 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+@media screen and (max-width:768px) {
+
+    .prevent {
+        width: 50%;
+    }
+
+}
+
+.virus {
+    font-family: "Mulish";
+    font-weight: 900;
+    line-height: 37.65px;
+    text-align: center;
+    color: #6F42C1;
+
+}
+
+.sit {
+    color: linear-gradient(0deg, #808081, #808081), ;
+    font-family: "Mulish";
+}
+
+.cases {
+    color: #989898;
+    font-family: "Mulish";
+
+}
+
+.carona {
+    color: #6F42C1;
+    font-family: "Mulish";
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.amet {
+    color: #989898;
+    font-family: "Mulish";
+}
+
+.symptoms {
+    color: #6F42C1;
+    font-family: "Mulish";
+    font-size: 18px;
+
+}
+
+.para {
+    color: #989898;
+    font-size: 16px;
+    font-family: "Mulish";
+}
+
+.custom-bg {
+    background: #F8F5FC;
+
+}
+
+.custom-img {
+    background: #E2D9F3;
+    width: 220px;
+    height: 110px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+
+.stay {
+    background-color: #ffffff;
+}
+
+.home {
+    font-family: "Mulish";
+    color: #000000;
+    font-size: 17px;
+}
+
+.custom-para {
+    color: #989898;
+    font-family: "Mulish";
+
+}
+
+.custom {
+    box-shadow: 0px 4px 10px 0px #6F42C133;
+    width: 239px;
+    height: 300px;
+    border-radius: 10px 0px 0px 0px;
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .position {
+        position: absolute;
+        top: 119px;
+    }
+
+
+}
+
+.do {
+    color: #000000;
+    font-family: "Mulish";
+    font-weight: 700;
+}
+
+.correct {
+    color: #989898;
+    font-family: "Mulish";
+}
+
+.cross {
+    color: #989898;
+    font-family: "Mulish";
+}
+
+.custom-image {
+    width: 500px;
+}
+
+.background {
+    background-color: #ffffff;
+}
+
+.cough {
+    background: #F8F5FC;
+
+}
+
+.carona-symtoms {
+    color: linear-gradient(0deg, #808081, #808081),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-align: center;
+    font-family: "Mulish";
+
+}
+
+.high-fever {
+    color: #6F42C1;
+    font-family: "Mulish";
+}
+
+.high {
+    color: #A4A4A4;
+    font-family: "Mulish";
+
+}
+
+.fever {
+    box-shadow: 0px 10px 12px 0px #BEBEBE40;
+    background-color: #ffffff;
+    width: 450px;
+    margin: 20px 10px;
+
+
+}
+
+@media screen and (max-width:470px) {
+    .fever {
+        width: 300px;
+    }
+}
+
+.homeside {
+    color: #808081;
+    font-family: "Mulish";
+}
+
+.doctor {
+    color: #6F42C1;
+
+}
+
+.custom-button {
+    color: #ffffff;
+    background: #6F42C1;
+    font-family: "Mulish";
+    border-radius: 26px;
+    margin: 0px;
+
+}
+
+.news {
+    color: linear-gradient(0deg, #808081, #808081),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    font-family: "Mulish";
+    align-items: center;
+
+}
+.article{
+    background-color: #ffffff;
+}
+.date{
+    color: #ffffff;
+    background: #6F42C1;
+    border: none;
+    text-align: center;
+    padding: 2px 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+    
+
+}
+.size{
+    margin: 10px 20px ;
+}
+.caronas{
+    color: #6F42C1;
+    font-family: "Mulish";
+    
+}
+.gap{
+    margin: 10px 50px;
+}
+footer{
+    background: #F8F5FC;
+
+}
+.links{
+    font-family: "Mulish";
+    color: #000000;
+    font-weight: 300;
+    text-align: center;
+}
+ul>li{
+    list-style: none;
+    color: #6F42C1;
+    text-align: left;
+    font-size: 15px;
+
+}
+.Quick{
+    margin: 20px 0px;
+}

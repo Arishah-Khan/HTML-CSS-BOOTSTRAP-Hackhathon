@@ -361,3 +361,15 @@ ul>li{
 .Quick{
     margin: 20px 0px;
 }
+@media screen and (min-width:991px) {
+    
+
+.positions{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    bottom: -310px;
+}
+
+}

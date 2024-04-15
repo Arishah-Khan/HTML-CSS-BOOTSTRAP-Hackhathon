@@ -36,7 +36,7 @@ link {
     font-size: 18px;
     font-weight: 400;
     line-height: 22.23px;
-    text-align: left;
+    text-align: center;
     color: #808081;
 
 }
@@ -46,12 +46,17 @@ link {
     border-bottom-right-radius: 300px;
 
 }
+@media screen and (max-width:786px) {
+    .bg{
+        border-bottom-right-radius: 150px;
+
+    }
+}
 
 .awarness {
     font-family: "Mulish";
     font-size: 16px;
     font-weight: 700;
-    line-height: 20.08px;
     text-align: left;
     color: #6F42C199;
 
@@ -60,8 +65,6 @@ link {
 .safe {
     font-family: "Mulish";
     font-weight: 900;
-    line-height: 50.58px;
-    letter-spacing: 0.04em;
     text-align: left;
     color: #6F42C1;
 
@@ -78,7 +81,7 @@ link {
 }
 
 .prevent {
-    width: 30%;
+    width: 40%;
     font-family: "Mulish";
     font-size: 15px;
     border-radius: 26px;
@@ -89,7 +92,18 @@ link {
     background-color: #6F42C1;
     padding: 15px 5px 15px 5px;
     border: none;
+}
+.prevents{
+    font-family: "Mulish";
+    font-size: 15px;
+    border-radius: 26px;
+    font-weight: 400;
+    line-height: 18.83px;
+    text-align: center;
     color: #ffffff;
+    background-color: #6F42C1;
+    padding: 15px 10px 15px 10px;
+    border: none;
 }
 
 .navbar-collapse {
@@ -239,6 +253,7 @@ link {
 .high-fever {
     color: #6F42C1;
     font-family: "Mulish";
+    font-weight: 700;
 }
 
 .high {
@@ -303,6 +318,17 @@ link {
     
 
 }
+@media screen and (min-width:768px) and (max-width:991px) {
+    .date{
+        position: absolute;
+        left: 45px;
+    }
+}
+@media screen and (max-width:767px) {
+    .date{
+        left: 90px;
+    }
+}
 .size{
     margin: 10px 20px ;
 }
@@ -321,8 +347,9 @@ footer{
 .links{
     font-family: "Mulish";
     color: #000000;
-    font-weight: 300;
+    font-weight: 700;
     text-align: center;
+
 }
 ul>li{
     list-style: none;
